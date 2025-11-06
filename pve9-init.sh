@@ -24,7 +24,7 @@ apt -y install \
   guestfish guestfs-tools amd64-microcode vivid parted nano python3-json5 \
   nvme-cli cpuinfo smartmontools bash-completion rsyslog proxmox-firewall \
   build-essential screen mtr ruby snmp snmpd starship zram-tools \
-  fzf ripgrep jq dnsutils rsync software-properties-common gnupg \
+  fzf ripgrep jq dnsutils rsync gnupg \
   tmux fonts-powerline fonts-font-awesome yamllint
 
 # ==============================================================
