@@ -1,4 +1,4 @@
-# ... [All previous sections unchanged] ...
+#!/bin/bash
 
 # Configure Starship Terminal
 echo "=== Configuring Starship Terminal ==="
