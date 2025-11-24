@@ -12,8 +12,8 @@ HISTCONTROL=ignoredups:ignorespace
 shopt -s histappend
 
 # for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
-HISTSIZE=5000
-HISTFILESIZE=10000
+HISTSIZE=2000
+HISTFILESIZE=3000
 
 # Use Xterm
 export TERM=xterm-256color
