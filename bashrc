@@ -27,9 +27,10 @@ if [ -z "$debian_chroot" ] && [ -r /etc/debian_chroot ]; then
     debian_chroot=$(cat /etc/debian_chroot)
 fi
 
-# Colorize ls and other gnu utilities
+# Colorize and set prefs for ls and other gnu utilities
 export LS_COLORS="$(vivid generate molokai)"
-alias ls='ls --color=auto --group-directories-first'
+export LS_OPTIONS='--color=auto --group-directories-first'
+alias ls='ls $LS_OPTIONS'
 alias dir='dir --color=auto'
 alias vdir='vdir --color=auto'
 alias grep='grep --color=auto'
